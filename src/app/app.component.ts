@@ -24,7 +24,6 @@ export class AppComponent implements OnInit {
     this.showUsers = this.filterUser;
     this.pages = this.getPages(this.users);
     this.getPageUser(0);
-
   }
 
   private getPages(data:IUser[]): number[] {
